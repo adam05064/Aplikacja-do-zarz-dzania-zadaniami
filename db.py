@@ -6,10 +6,10 @@ class Database:
     def __init__(self):
         try:
             self.conn = mysql.connector.connect(
-                database="BazaZZ",
-                user="adam",
-                password="adam",
-                host="172.26.221.70",
+                database="nazwa bazy",
+                user="login",
+                password="hasło",
+                host="Adres IP bazy",
                 port="3306"
             )
             print("Połączono z bazą danych MariaDB!")
